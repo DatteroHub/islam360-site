@@ -1,12 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import LinkUnderline from './LinkUnderline'
-import BgDiv from './BgDiv'
 import ContentDiv from './ContentDiv'
 
 export default function Navbar() {
   return (
-    <BgDiv className="fixed top-0 left-0 right-0 py-0 backdrop-blur bg-white/80">
+    <div className="fixed top-0 left-0 right-0 backdrop-blur bg-white/80">
       <ContentDiv>
         <header className='flex items-center'>
           <Link to='/'>
@@ -19,6 +18,6 @@ export default function Navbar() {
           </div>
         </header>
       </ContentDiv>
-    </BgDiv>
+    </div>
   )
 }
