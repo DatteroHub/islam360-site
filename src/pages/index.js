@@ -6,16 +6,18 @@ import InfoCard from "../components/InfoCard"
 import BgDiv from "../components/BgDiv"
 import ContentDiv from "../components/ContentDiv"
 import LinkBox from "../components/LinkBox"
+import LinkUnderline from "../components/LinkUnderline"
 
 export default function Home() {
   return (
     <Layout>
-      <BgDiv className="pt-8 pb-4 bg-white">
+      <BgDiv className="pt-0 lg:pb-4 bg-white">
         <ContentDiv className="flex justify-center items-center">
-          <div className="mr-4">
-            <h1 className="font-semibold text-5xl md:text-6xl text-sky-500">Islam360 Italia<br/>per dawah e mentoring</h1>
+          <div className="mr-8 xl:max-w-lg">
+            <h1 className="font-semibold text-4xl md:text-5xl xl:text-6xl text-sky-500">Islam360 Italia<br/>per dawah e mentoring</h1>
+            <br/><br/><Link to="/gorap" className="bg-sky-500 hover:bg-sky-600 text-neutral-50 py-4 px-10 rounded-lg duration-300">Conosci l'Islam</Link>
           </div>
-          <img src={'/hero.gif'} alt="Hero" className='h-56 xl:h-64 hidden lg:flex' />
+          <img src={'/dawah team.jpg'} alt="Hero" className='h-96 xl:h-128 hidden lg:flex rounded-xl translate-y-12 xl:translate-y-20' />
         </ContentDiv>
       </BgDiv>
       <BgDiv className="">

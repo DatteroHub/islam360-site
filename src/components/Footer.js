@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <BgDiv className="pt-12 pb-16 bg-sky-700">
       <ContentDiv>
-        <footer className="flex gap-2 md:gap-4">
+        <footer className="flex flex-col md:flex-row gap-6 md:gap-4">
           <div className='flex-1'>
             <div className='font-medium text-sky-200 pl-6 mb-2'>Contattaci</div>
             <LinkBox href="mailto:islam360@outlook.it" className="text-medium text-neutral-50 hover:bg-white/10">

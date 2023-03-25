@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors: {
         "primary": "#37a9e0",
+      },
+      height: {
+        '128': '32rem',
       }
     },
   },

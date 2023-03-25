@@ -5,7 +5,7 @@ import ContentDiv from './ContentDiv'
 
 export default function Navbar() {
   return (
-    <div className="fixed top-0 left-0 right-0 backdrop-blur bg-white/80">
+    <div className="fixed z-50 top-0 left-0 right-0 backdrop-blur bg-white/80">
       <ContentDiv>
         <header className='flex items-center'>
           <Link to='/'>
