@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function BgDiv({ className , children }) {
+export default function BgDiv({ className , style , children }) {
   return (
-    <div className={`${className}`}>
+    <div className={`${className}`} style={style}>
         { children }
     </div>
   )
