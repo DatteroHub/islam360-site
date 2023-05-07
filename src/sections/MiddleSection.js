@@ -9,12 +9,13 @@ export default function MiddleSection() {
         <BgDiv className="py-24">
             <ContentDiv className="flex flex-col mt-8 xl:mt-18">
                 <div className="py-12 text-center font-medium text-3xl text-sky-500">Cosa facciamo</div>
-                <div className="pb-8 flex flex-col md:flex-row gap-10 justify-center items-center">
+                <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
                     <Card src="/follow dawah.jpg" title="street dawah" />
                     <Card src="/follow mentoring.jpg" title="formazione e mentoring" />
                 </div>
 
-                <div id="contacts" className="py-12 text-center font-medium text-3xl text-sky-500">Come contattarci</div>
+                <div className="pt-20 pb-12 text-center font-medium text-3xl text-sky-500" id="contacts">Come contattarci</div>
+                
             </ContentDiv>
         </BgDiv>
     </>

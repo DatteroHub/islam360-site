@@ -34,7 +34,7 @@ export default function Footer() {
       </ContentDiv>
       <ContentDiv className="flex flex-col md:flex-row justify-center items-center text-sm text-sky-200">
         <div>Copyright © 2023</div>
-        <div className='pl-2 hidden md:flex'>‧</div>
+        <div className='pl-3 hidden md:flex'>‧</div>
         <a href="https://dattero.org/" target="_blank" rel="noreferrer" className="flex items-center max-w-xs p-4 rounded-lg hover:bg-white/10 transition duration-300">
           <img src="/poweredby.png" alt="Dattero Logo" className="h-8" />
         </a>

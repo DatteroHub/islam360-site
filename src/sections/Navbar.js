@@ -31,7 +31,7 @@ export default function Navbar() {
       <ContentDiv>
         <header className='flex items-center h-14'>
           <Link to='/'>
-            <img src={'/logo.png'} alt="Islam360 logo" className='h-12 py-3' />
+            <img src={'/logo.png'} alt="Islam360 logo" className='h-12 py-2.5' />
           </Link>
           <div className='hidden md:flex flex-1 justify-end gap-5'>
           </div>
