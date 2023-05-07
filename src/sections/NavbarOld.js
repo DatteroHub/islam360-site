@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'gatsby'
-import LinkUnderline from './LinkUnderline'
-import BgDiv from './BgDiv'
-import ContentDiv from './ContentDiv'
+import LinkUnderline from '../components/LinkUnderline'
+import BgDiv from '../components/BgDiv'
+import ContentDiv from '../components/ContentDiv'
 
-export default function Navbar() {
+export default function NavbarOld() {
 
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [menuBgColor, setMenuBgColor] = useState('rgba(255,255,255,0)');
@@ -29,14 +29,12 @@ export default function Navbar() {
   return (
     <BgDiv className={`fixed z-50 top-0 left-0 right-0 ${showMobileMenu ? 'h-full' : ''} backdrop-blur `} style={{ backgroundColor: !showMobileMenu ? menuBgColor : 'rgba(255,255,255,0.8'}}>
       <ContentDiv>
-        <header className='flex items-center'>
+        <header className='flex items-center h-14'>
           <Link to='/'>
-            <img src={'/logo.png'} alt="Dattero logo" className='h-20' />
+            <img src={'/logo.png'} alt="Islam360 logo" className='h-12 py-3' />
           </Link>
           <div className='hidden md:flex flex-1 justify-end gap-5'>
-            <LinkUnderline to='/dawah'>Dawah</LinkUnderline>
-            <LinkUnderline to='/mentoring'>Mentoring</LinkUnderline>
-            <LinkUnderline to='/eventi'>Eventi</LinkUnderline>
+            <LinkUnderline to='/dawah'>Contatti</LinkUnderline>
           </div>
           <div className='md:hidden flex flex-1 justify-end'>
             <div className='active:bg-sky-900/10 py-3 px-3 rounded-md' onClick={toggleMobileMenu} >
@@ -50,9 +48,7 @@ export default function Navbar() {
           {showMobileMenu &&
             <div className='absolute top-20 right-0 left-0 flex flex-col h-screen'>
               <div className='flex flex-col items-center py-4'>
-                <Link to='/dawah' className='text-sky-500 text-xl active:bg-sky-50 w-full py-6 text-center'>Dawah</Link>
-                <Link to='/mentoring' className='text-sky-500 text-xl active:bg-sky-50 w-full py-6 text-center'>Mentoring</Link>
-                <Link to='/eventi' className='text-sky-500 text-xl active:bg-sky-50 w-full py-6 text-center'>Eventi</Link>
+                <Link to='/dawah' className='text-sky-500 text-xl active:bg-sky-50 w-full py-6 text-center'>Contatti</Link>
               </div>
               <div className='flex-1' onClick={toggleMobileMenu} />
             </div>

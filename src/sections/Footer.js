@@ -1,7 +1,7 @@
 import React from 'react'
-import BgDiv from './BgDiv'
-import ContentDiv from './ContentDiv'
-import LinkBox from './LinkBox'
+import BgDiv from '../components/BgDiv'
+import ContentDiv from '../components/ContentDiv'
+import LinkBox from '../components/LinkBox'
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
       <ContentDiv className="pb-8">
         <footer className="flex flex-col md:flex-row gap-6 md:gap-4">
           <div className='flex-1 text-sky-50 pl-6 md:pl-0'>
-            <img src={'/logo.png'} alt="Dattero logo" className='h-16' />
+            <div className='h-24 w-24 bg-white flex items-center rounded-md p-4'><img src={'/logo.png'} alt="Islam360 logo" className='' /></div>
             <div className='text-xl pt-4'>Islam 360</div>
             <div className='text-gray-300'>Organizzazione No-Profit</div>
             <div className='font-medium text-sky-200 mt-2 py-2'>Sostieni la dawah</div>
@@ -32,13 +32,12 @@ export default function Footer() {
           </div>
         </footer>
       </ContentDiv>
-      <ContentDiv className="flex flex-col md:flex-row justify-center items-center text-sky-200">
+      <ContentDiv className="flex flex-col md:flex-row justify-center items-center text-sm text-sky-200">
         <div>Copyright © 2023</div>
-        <div className='px-2 hidden md:flex'>‧</div>
-        <div className='flex items-center'>
-          <div className='font-medium'>Powered by</div>
-          <LinkBox href="https://dattero.org/" src={'/dattero.png'} alt="Dattero Logo" iconSize="h-6" className="px-2 py-2 mx-2 mb-2 text-medium text-sky-50 hover:bg-white/10">Dattero</LinkBox>
-        </div>
+        <div className='pl-2 hidden md:flex'>‧</div>
+        <a href="https://dattero.org/" target="_blank" rel="noreferrer" className="flex items-center max-w-xs p-4 rounded-lg hover:bg-white/10 transition duration-300">
+          <img src="/poweredby.png" alt="Dattero Logo" className="h-8" />
+        </a>
       </ContentDiv>
     </BgDiv>
   )
