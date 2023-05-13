@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from 'gatsby'
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { SEO } from "../components/seo"
 import Layout from "../components/Layout"
 import BgDiv from "../components/BgDiv"
@@ -15,7 +16,7 @@ export default function Home() {
           <ContentDiv className="flex justify-center items-center">
             <div className="mr-8 xl:max-w-lg">
               <h1 className="font-semibold text-4xl md:text-5xl xl:text-6xl text-sky-500">Islam360 Italia<br/>per dawah e mentoring</h1>
-              <br/><br/><Link to="#contacts" className="bg-sky-500 hover:bg-sky-600 text-sky-50 py-4 px-10 rounded-lg duration-300">Contattaci</Link>
+              <br/><br/><AnchorLink to="#contacts" className="bg-sky-500 hover:bg-sky-600 text-sky-50 py-4 px-10 rounded-lg duration-300">Contattaci</AnchorLink>
             </div>
             <img src={'/dawah team.jpg'} alt="dawah team" className='h-96 xl:h-128 hidden lg:flex rounded-xl translate-y-16 xl:translate-y-20' />
           </ContentDiv>
