@@ -20,7 +20,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className='h-0.5 mx-6 md:hidden bg-sky-800 rounded-b-full' />
+          <div className='h-0.5 mx-6 mt-4 md:hidden bg-sky-800 rounded-b-full' />
           <div className='flex-1'>
             <div className='font-medium text-sky-200 pl-6 mb-2'>Contattaci</div>
             <LinkBox href="mailto:islam360@outlook.it" className="text-medium text-sky-50 hover:bg-white/10">
