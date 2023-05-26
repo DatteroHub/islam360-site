@@ -11,9 +11,14 @@ export default function Footer() {
           <div className='flex-1 text-sky-50 pl-6 md:pl-0'>
             <div className='h-24 w-24 bg-white flex items-center rounded-md p-4'><img src={'/logo.png'} alt="Islam360 logo" className='' /></div>
             <div className='text-xl pt-4'>Islam 360</div>
-            <div className='text-gray-300'>Organizzazione No-Profit</div>
+            <div className='text-gray-300'>Organizzazione Non Profit</div>
+            <div className='text-sm mt-1'>CF: 97943640157</div>
             <div className='font-medium text-sky-200 mt-2 py-2'>Sostieni la dawah</div>
-            <div>IT87UGTYF877GVTC65FCFC</div>
+            <div className="text-md mt-4">
+              <a href="https://pay.sumup.io/b2c/QNVJQ9TR" target="_blank" rel="noreferrer" className="bg-emerald-500 hover:bg-emerald-600 py-4 px-6 rounded-lg duration-300">
+                Dona ora
+              </a>
+            </div>
           </div>
           <div className='h-0.5 mx-6 md:hidden bg-sky-800 rounded-b-full' />
           <div className='flex-1'>

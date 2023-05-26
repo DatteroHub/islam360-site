@@ -9,7 +9,7 @@ export default function  MessengerChat() {
 
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "1538005239586167");
+      chatbox.setAttribute("page_id", "503654456826675");
       chatbox.setAttribute("logged_in_greeting", "Salam! Come possiamo aiutarti?");
       chatbox.setAttribute("logged_out_greeting", "Salam! Come possiamo aiutarti?");
       chatbox.setAttribute("attribution", "biz_inbox");
