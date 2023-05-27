@@ -16,7 +16,7 @@ export default function MiddleSection() {
                 </div>
 
                 <div className="pt-24 mb-12 text-center font-medium text-3xl text-sky-500" id="contacts">Come contattarci</div>
-                <div className='mb-12 flex flex-col md:flex-row gap-8 md:gap-24 justify-center items-center'>
+                <div className='mb-12 flex flex-col md:flex-row gap-6 md:gap-24 justify-center items-center'>
                     <div className='flex justify-center items-center'>
                         <img src="/big telegram.png" alt="icona telegram" className="w-28 md:w-40" />
                     </div>
@@ -26,7 +26,7 @@ export default function MiddleSection() {
                         <HrefChevron to="https://t.me/islam360it/" className="mt-4 group w-fit bg-sky-500 hover:bg-sky-600 py-4 px-6 rounded-lg duration-300" chevronH="h-5">Apri Telegram</HrefChevron>
                     </div>
                 </div>
-                <div className='flex flex-col md:flex-row gap-8 md:gap-24 justify-center items-center'>
+                <div className='flex flex-col md:flex-row gap-6 md:gap-24 justify-center items-center'>
                     <div className='flex justify-center items-center'>
                         <img src="/big messenger.png" alt="icona telegram" className="w-28 md:w-40" />
                     </div>
