@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from 'gatsby'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { SEO } from "../components/seo"
 import Layout from "../components/Layout"
