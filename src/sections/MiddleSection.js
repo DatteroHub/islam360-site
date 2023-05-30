@@ -23,7 +23,7 @@ export default function MiddleSection() {
                     <div className='flex flex-col'>
                         <div className="font-normal text-lg lg:text-xl text-sky-500 text-center md:text-left uppercase"><h1>scrivici su telegram</h1></div>
                         <div className="mt-4 font-normal text-md text-gray-700 max-w-md">Per qualsiasi informazione, dubbio o richiesta puoi contattarci su Telegram e saremo felici di supportarti.</div>
-                        <HrefChevron to="https://t.me/islam360it/" className="mt-4 group w-fit bg-sky-500 hover:bg-sky-600 py-4 px-6 rounded-lg duration-300" chevronH="h-5">Apri Telegram</HrefChevron>
+                        <HrefChevron to="https://t.me/islam360ita/" className="mt-4 group w-fit bg-sky-500 hover:bg-sky-600 py-4 px-6 rounded-lg duration-300" chevronH="h-5">Apri Telegram</HrefChevron>
                     </div>
                 </div>
                 <div className='flex flex-col md:flex-row gap-6 md:gap-24 justify-center items-center'>
