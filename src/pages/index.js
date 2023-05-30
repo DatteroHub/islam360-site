@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero */}
-      <div className="bg-cover bg-center" style={{backgroundImage: `url("/big dawah team.jpg")`}}>
+      <div className="bg-cover bg-center" style={{backgroundImage: `url("/big-dawah-team.jpg")`}}>
         <BgDiv className="pt-44 lg:pt-12 xl:pt-0 pb-44 lg:pb-8 backdrop-blur-sm bg-white/80">
           <ContentDiv className="flex justify-center items-center">
             <div className="mr-8 xl:max-w-lg">
               <h1 className="font-semibold text-4xl md:text-5xl xl:text-6xl text-sky-500">Islam360 Italia<br/>per dawah e mentoring</h1>
               <br/><br/><AnchorLink to="#contacts" className="bg-sky-500 hover:bg-sky-600 text-sky-50 py-4 px-10 rounded-lg duration-300">Contattaci</AnchorLink>
             </div>
-            <img src={'/dawah team.jpg'} alt="dawah team" className='h-96 xl:h-128 hidden lg:flex rounded-xl translate-y-16 xl:translate-y-20' />
+            <img src={'/dawah-team.jpg'} alt="dawah team" className='h-96 xl:h-128 hidden lg:flex rounded-xl translate-y-16 xl:translate-y-20' />
           </ContentDiv>
         </BgDiv>
       </div>
@@ -26,7 +26,7 @@ export default function Home() {
       <MiddleSection />
 
       {/* Ayah */}
-      <div className="bg-cover bg-left-top" style={{backgroundImage: `url("/buona parola.jpg")`}}>
+      <div className="bg-cover bg-left-top" style={{backgroundImage: `url("/buona-parola.jpg")`}}>
         <BgDiv className="py-24 backdrop-blur-sm bg-white/80">
           <ContentDiv className="flex flex-col items-center gap-10">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="h-12 fill-emerald-600"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>

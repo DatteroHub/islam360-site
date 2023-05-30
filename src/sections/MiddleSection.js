@@ -11,14 +11,14 @@ export default function MiddleSection() {
             <ContentDiv className="flex flex-col">
                 <div className="mb-12 text-center font-medium text-3xl text-sky-500">Cosa facciamo</div>
                 <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
-                    <Card src="/follow dawah.jpg" title="street dawah" />
-                    <Card src="/follow mentoring.jpg" title="formazione e mentoring" />
+                    <Card src="/follow-dawah.jpg" title="street dawah" />
+                    <Card src="/follow-mentoring.jpg" title="formazione e mentoring" />
                 </div>
 
                 <div className="pt-24 mb-12 text-center font-medium text-3xl text-sky-500" id="contacts">Come contattarci</div>
                 <div className='mb-12 flex flex-col md:flex-row gap-6 md:gap-24 justify-center items-center'>
                     <div className='flex justify-center items-center'>
-                        <img src="/big telegram.png" alt="icona telegram" className="w-28 md:w-40" />
+                        <img src="/big-telegram.png" alt="icona telegram" className="w-28 md:w-40" />
                     </div>
                     <div className='flex flex-col'>
                         <div className="font-normal text-lg lg:text-xl text-sky-500 text-center md:text-left uppercase"><h1>scrivici su telegram</h1></div>
@@ -28,7 +28,7 @@ export default function MiddleSection() {
                 </div>
                 <div className='flex flex-col md:flex-row gap-6 md:gap-24 justify-center items-center'>
                     <div className='flex justify-center items-center'>
-                        <img src="/big messenger.png" alt="icona telegram" className="w-28 md:w-40" />
+                        <img src="/big-messenger.png" alt="icona telegram" className="w-28 md:w-40" />
                     </div>
                     <div className='flex flex-col'>
                         <div className="font-normal text-lg lg:text-xl text-sky-500 text-center md:text-left uppercase"><h1>non hai telegram?</h1></div>
